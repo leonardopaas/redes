@@ -10,22 +10,15 @@
 </head>
 <body>
 	<section class="margem">
-		<section class="calc"><h1>Calculadora</h1></section>
-		<section class="separa"></section>
 		<form action="funcao.php" method="post">
-			<section class="ip">
-				<div class="ui input"><h4>Ip:</h4>
-		 			 <input type="text" name="ip">
-				</div>
-			</section>
-			<section class="ip">	
-				<div class="ui input"><h4>Mascara:</h4>
-		 			 <input type="number" min="25" max="32" name="mascara" >
-				</div>
-			</section>
-			<section class="masc">
-				<button type="submit" class="ui button">Enviar</button>
-			</section>
+			<div class="ui input">
+	 			 <input type="text" name="ip">
+			</div>
+			<div class="ui input">
+	 			 <input type="number" min="25" max="32" name="mascara" >
+			</div>
+			<button type="submit" class="ui button">Enviar</button>
+			
 		</form>
 	</section>
 </body>
