@@ -1,0 +1,13 @@
+.margem{
+	width: 60%;
+	height: 40%;
+	float: left;
+	margin-left: 19%;
+	margin-top: 10%;
+	border: solid #000000 0.8px ;
+
+}
+.separa{
+	width: 100%;
+	height: 20px;
+}
